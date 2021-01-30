@@ -20,7 +20,7 @@ else{
     }
 
 while(t1!=NULL && t2!=NULL){
-if(t1->data > t2->data){
+if(t1->data < t2->data){
     tail->next = t1;
     tail = t1;
     t1 = t1->next;
